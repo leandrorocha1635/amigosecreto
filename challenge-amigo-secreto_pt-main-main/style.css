@@ -1,0 +1,270 @@
+:root {
+    --color-primary: #88A473;
+    --color-secondary: #FFF9EB;
+    --color-tertiary: #82B2B6;
+    --color-button: #DB8E34;
+    --color-button-hover: #FE8C0A;
+    --color-text: #ffff;
+    --color-white: #FFFFFF;
+}
+
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 60%;
+    max-height: 90%;
+}
+
+.buttons__nav__menu {
+    display: flex;
+    align-items: left;
+    padding: 15px 0;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: 30px;
+    
+}
+.button__nav__menu__inicio {
+    background-color: var(--color-button);
+    color: var(--color-white);
+    margin: 0 10px;
+}
+.button__nav__menu__inicio:hover {
+    background-color: var(--color-tertiary);
+}
+.button__nav__menu__sobre {
+    background-color: var(--color-button);
+    color: var(--color-white);
+    margin: 0 5px;
+}
+
+.button__nav__menu__sobre:hover {
+    background-color: var(--color-tertiary);
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+/* Banner */
+.header-banner {
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 5px 0;
+}
+/* Seção de entrada */
+.input-section {
+    flex: 60%;
+    background-color: var(--color-secondary);
+    border: 1px solid #000;
+    border-radius: 64px 64px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    
+}
+
+/* Títulos */
+.main-title {
+    font-size: 50px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: regular;
+    color: var(--color-white);
+    margin: 20px
+}
+
+.section-title {
+    font-family: "Inter", serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Contêineres de entrada e botão */
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.input-name {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 25px 0 0 25px;
+    font-size: 16px;
+}
+
+.button-container {
+    width: 300px;
+    justify-content: center;
+}
+
+/* Estilos de entrada de texto */
+.input-title {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #333;
+    border-right: none;
+    border-radius: 25px 0 0 25px;
+    font-family: "Merriweather", serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos de botão */
+button {
+    padding: 15px 30px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.button-add {
+    background-color: var(--color-button);
+    color: var(--color-text);
+    border-radius: 0 25px 25px 0;
+}
+
+.button-add:hover {
+    background-color: var(--color-tertiary);
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    color: var (--color-tertiary);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.result-list {
+    margin-top: 15px;
+    color: #05DF05;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Botão de sortear título */
+.button-draw {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.button-draw img {
+    margin-right: 40px;
+}
+.button-draw:hover {
+    background-color: var(--color-button-hover);
+}
+
+.button-reiniciar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    font-size: 16px;
+}
+
+.button-reiniciar img {
+    width: 35px;
+    height: 35px;
+    margin-right: 40px;
+}
+.button-reiniciar:hover {
+    background-color: var(--color-button-hover);
+}
+
+.nome-pessoal {
+    margin-bottom: 20px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: var(--color-primary);
+    border: 1px solid #000;
+    color: var(--color-white);
+    font-family: "Inter", sans-serif;
+    
+}
+
+.rodape a {
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: var(--color-white)
+}
+
+.rodape a:hover {
+    color: var(--color-tertiary);
+}
+
+/* pag sobre*/
+
+.descricao__como {
+    display: flex;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin-bottom: 0px;
+
+}
+.descricao__como__dois{
+    display: flex;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding:20px ; 
+    max-width: 1200px;
+    
+}
+
+.descricao__porque{
+    display: flex;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 20px;
+    max-width: 1200px;
+}
