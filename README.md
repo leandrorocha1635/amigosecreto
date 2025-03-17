@@ -32,3 +32,9 @@ Casos de Uso
 Desenvolvedor
 
 https://github.com/leandrorocha1635
+
+
+Licença
+[The MIT License (MIT)](https://github.com/leandrorocha1635)
+
+Copyright ©️ 2025 - Amigo Secreto Alura
