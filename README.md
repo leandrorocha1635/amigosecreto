@@ -28,3 +28,7 @@ Casos de Uso
 
 • Grupos de amigos: Permite organizar o amigo secreto de forma descontraída e sem erros, mesmo com participantes morando em locais diferentes.
 
+
+Desenvolvedor
+
+https://github.com/leandrorocha1635
