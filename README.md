@@ -9,3 +9,7 @@ Funcionalidades
 ✔️ Sorteio de amigos secreto sem limite de participantes;
 
 ✔️ Impedir o sorteio de si mesmo
+
+
+Como rodar a aplicação ▶️
+No terminal, clone o projeto:
