@@ -12,4 +12,7 @@ Funcionalidades
 
 
 Como rodar a aplicação ▶️
+
 No terminal, clone o projeto:
+
+https://github.com/leandrorocha1635/amigosecreto.git
