@@ -31,7 +31,7 @@ Casos de Uso
 
 Desenvolvedor
 
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Leandro Rocha</sub>](https://github.com/leandrorocha1635)
+(https://github.com/leandrorocha1635)
 
 
 Licença
