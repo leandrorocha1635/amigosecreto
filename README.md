@@ -11,8 +11,20 @@ Funcionalidades
 ✔️ Impedir o sorteio de si mesmo
 
 
+
 Como rodar a aplicação ▶️
 
 No terminal, clone o projeto:
 
 https://github.com/leandrorocha1635/amigosecreto.git
+
+
+
+Casos de Uso
+
+• Reuniões familiares: Ideal para organizar o amigo secreto das festas de fim de ano, garantindo que todos participem de forma prática.
+
+• Eventos corporativos: Empresas podem usar a aplicação para facilitar o sorteio entre colaboradores, sem a necessidade de organizar manualmente.
+
+• Grupos de amigos: Permite organizar o amigo secreto de forma descontraída e sem erros, mesmo com participantes morando em locais diferentes.
+
