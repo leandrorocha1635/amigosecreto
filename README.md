@@ -16,7 +16,7 @@ Como rodar a aplicação ▶️
 
 No terminal, clone o projeto:
 
-https://github.com/leandrorocha1635/amigosecreto.git
+[https://github.com/leandrorocha1635/amigosecreto.git](https://github.com/leandrorocha1635/amigosecreto/tree/main/challenge-amigo-secreto_pt-main-main)
 
 
 
